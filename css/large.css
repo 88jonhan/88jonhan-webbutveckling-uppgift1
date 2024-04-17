@@ -1,0 +1,15 @@
+@media (min-width: 1250px) {
+    header {
+        height: 80px;
+    }
+
+    .nav-menu-icon {
+        display: none;
+    }
+
+    .main-nav,
+    .secondary-nav {
+        display: flex;
+    }
+
+}

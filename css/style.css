@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'SamsungOne', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    height: 100%;
+    padding: 0 1rem;
+}
+
+main {
+    flex-grow: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+nav a,
+nav a:visited,
+nav a:hover,
+nav a:active {
+    margin: 0 1rem 0 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button {
+    color: #eee;
+    background-color: black;
+    border-radius: 1.5rem;
+    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+    border: 0;
+    font-family: 'SamsungOne', 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* OBJECTS */
+
+.wrapper {
+    max-width: 1440px;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 0;
+}
+
+.content-section {
+    width: 100%;
+    margin: 0 0 1rem 0;
+}
+
+.nav-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+/* UTILITY */
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
