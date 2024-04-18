@@ -18,3 +18,5 @@ De delar av sidan jag återskapat är headern, de två första content-sektioner
 
 ## Slim
 ![alt text](./screenshots/min_kopia_slim.PNG)
+
+Länk till github-repo: https://github.com/88jonhan/88jonhan-webbutveckling-uppgift1
